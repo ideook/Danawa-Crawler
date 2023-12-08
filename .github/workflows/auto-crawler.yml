@@ -5,7 +5,7 @@ name: Auto Crawler
 
 on:
   schedule:
-    - cron: '11 * * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   build:
